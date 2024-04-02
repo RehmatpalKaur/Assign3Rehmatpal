@@ -1,0 +1,11 @@
+<h2>Pets List</h2>
+<ul>
+  <li *ngFor="let pet of pets">
+    <img [src]="pet.image" [alt]="pet.name" class="pet-image">
+    <a [routerLink]="['/detailsofpets', pet.id]">{{ pet.name }} - {{ pet.petKind }}</a>
+  </li>
+</ul>
+
+
+
+
