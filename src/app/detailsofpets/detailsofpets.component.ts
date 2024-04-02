@@ -37,3 +37,4 @@ export class DetailsofPetsComponent implements OnInit {
   }
 }
 
+//deatailsofpets
